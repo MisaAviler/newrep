@@ -1,0 +1,13 @@
+.LM_canvas {
+	position: absolute;
+	top: 0;
+	transition: 1s;
+	z-index: 5;
+}
+.LM_layout {
+	position: absolute;
+	top:0;
+	left: 0;
+	transform-origin: top left;
+	transition: transform .2s;
+}

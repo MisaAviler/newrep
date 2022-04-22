@@ -1,0 +1,520 @@
+.isTablet .LM_close{
+	background-size: 44px!important;
+	top: 30px!important;
+	right: 12px!important;
+}
+
+html {
+	color: #2B2B2B;
+	-webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("https://i.loopme.me/html/newSurveyApr20/font/Roboto-Regular.ttf");
+}
+
+body {
+	font-family: RobotoRegular, sans-serif;
+	font-weight: normal;
+	font-size: 1.1em;
+}
+
+ul,
+li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.LM_content {
+	background-color: rgb(242, 242, 242);
+}
+
+
+
+/* HEADER */
+
+.red-top-line{
+	height: 2%;
+	width: 100%;
+	background-color: #ed1c24;
+	position: absolute;
+	top: 0;
+}
+
+.survey-logo {
+	font-size: 2.3em;
+	position: absolute;
+	margin: 0;
+	width: 100%;
+	top: 5%;
+	font-weight: normal;
+	text-align: center;
+}
+
+.questions-stage {
+	position: absolute;
+	top: 11%;
+	width: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.active-stage {
+	opacity: 1!important;
+}
+.questions-stage-bars {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.questions-stage-bars .bar:first-child {
+    margin-left: 20px;
+}
+
+.questions-stage-bars .bar:last-child {
+    margin-right: 20px;
+}
+
+.bar {
+    width: 30%;
+    height: 4px;
+    opacity: .5;
+    margin: 7% 4px;
+    display: inline-block;
+    background-color: #2B2B2B;
+    border: 1px solid #2B2B2B;
+    border-radius: 20px;
+}
+
+.survey-page{
+	position: absolute;
+	top: 19%;
+	width: 100%;
+	height: 78%;
+	align-items: center;
+	flex-direction: column;
+	/* justify-content: space-between; */
+	max-height: 78%;
+	display: none;
+}
+.multiplesellection{
+	height: 68%;
+	justify-content: space-between;
+}
+.stage-number{
+	position: absolute;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: .8em;
+}
+.stage-text{
+	margin: 0;
+	opacity: .5;
+}
+
+/* SURVEY CONTENT */
+/* .survey-page{
+    height: 100%;
+} */
+
+.survey-options{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 75%;
+	width: 90%;
+	/* overflow: auto; */
+	overflow-y: scroll;
+}
+.full-height{
+	height: 100%;
+}
+.survey-options-scroll {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    /*height: 75%;*/
+    overflow-y: scroll;
+}
+.survey-options-scroll .survey-option-item{
+    margin-bottom: 2%;
+}
+
+.survey-option-item{
+	opacity: 0;
+	transform: scale(.4);
+}
+.survey-option{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	border: 1px solid #2B2B2B;
+	background-color: transparent;
+	padding: 3% 0;
+	/*margin: 7% 5%;*/
+	font-size: 0.9em;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	/*hyphens: auto;*/
+	text-align: center;
+	color: #2B2B2B;
+	border-radius: 10px;
+}
+
+.option-item-text-span{
+	display: block;
+	padding-left: 11%;
+	padding-right: 11%;
+}
+/* CHECK MARK */
+.survey-option .checkmark {
+	position: absolute;
+	display: block;
+	left: 2%;
+	height: 28px;
+	width: 28px;
+	border-radius: 50%;
+}
+
+/* When the checkbox is checked, add a blue background */
+.survey-option input:checked ~ .checkmark {
+	background-color: #f2f2f2;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.survey-option::after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the checkmark when checked */
+.survey-option input:checked ~ .checkmark::after {
+	display: block;
+}
+.survey-option input:checked ~ .checkmark{
+	border: 1px solid #ed1c24;
+	background-color: #f2f2f2;
+}
+
+/* Style the checkmark/indicator */
+.survey-option .checkmark::after {
+	left: 9px;
+	top: 5px;
+	width: 7px;
+	height: 15px;
+	border: solid #ed1c24;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.survey-option .input-container input:checked ~ .checkmark {
+	background-color: #ed1c24;
+}
+
+.survey-option .checkmark::after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.survey-option .input-container input:checked ~ .checkmark::after {
+	display: block;
+}
+
+.survey-option .input-container .checkmark::after {
+	top: 9px;
+	left: 9px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+
+.survey-question-text{
+    /*position: absolute;*/
+    top: 0;
+    font-size: 0.9em;
+    font-weight: 400;
+    padding: 0 5%;
+    /*margin: 0 0 2% 0;*/
+    /*margin-bottom: 6%;*/
+    text-align: center;
+}
+.survey-question-text-scroll{
+    margin: 0 0 3% 0;
+}
+
+/* .survey-question-text{
+	font-size: 0.9em;
+	font-weight: 400;
+	padding: 0 5%;
+	margin: 0;
+	margin-bottom: 6%;
+	text-align: center;
+} */
+
+.survey-option input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	pointer-events: none;
+	height: 0;
+	width: 0;
+}
+
+.survey-option-btn {
+	border: none;
+	opacity: 0;
+}
+
+.survey-btn-container{
+    display: flex;
+    /*position: absolute;*/
+    bottom: 0;
+    pointer-events: none;
+    width: 90%;
+    justify-content: center;
+    opacity: 0;
+    z-index: 3;
+}
+.survey-btn-container-scroll{
+    margin: 3% 0 0 0;
+}
+/* .survey-btn-container{
+	display: flex;
+	pointer-events: none;
+	width: 90%;
+	justify-content: center;
+	opacity: 0;
+	z-index: 3;
+} */
+
+.survey-btn {
+	border: 1px solid #ed1c24;
+	background-color: #ed1c24;
+	/*height: 45px;*/
+	z-index: 3;
+	padding: 2.5% 0;
+	width: 100%;
+	color: #fff;
+	font-size: 1em;
+	border-radius: 10px;
+	font-weight: 700;
+}
+
+
+/* FOOTER */
+.survey-footer {
+	position: absolute;
+	bottom: 0;
+	height: 10%;
+	width: 100%;
+}
+
+.survey-footer-privacy-policy-text-container {
+	opacity: 0;
+	/*display: none;*/
+	width: 83%;
+	margin: 0 auto;
+	color: #2B2B2B;
+	text-align: center;
+	font-size: .6em;
+}
+
+.survey-footer-privacy-policy-text-container p {
+	max-width: 315px;
+	margin: 0 auto;
+	width: 315px;
+	min-width: 315px;
+}
+
+.second-survey-footer-legal-text-container{
+	display: none;
+	opacity: 0;
+	margin: 7% auto;
+}
+
+.survey-footer-logo {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin-right: 5%;
+	width: 21%;
+}
+
+.survey-footer-legal-extra-text {
+	text-decoration: underline;
+}
+.survey-footer-logo-img {
+	width: 100%;
+	max-width: 100%;
+}
+.age-select-inputs{
+	opacity: 0;
+}
+
+
+/* DEMOGRAPHIC PAGE */
+
+.survey-demographic-page{
+	top: 15%;
+}
+
+.survey-demographic-question-text {
+	font-size: 0.9em;
+	font-weight: 400;
+	padding: 0 5%;
+	margin-top: 0;
+	margin-bottom: 6%;
+	text-align: center;
+}
+
+.survey-demographic-form {
+	font-size: .9em;
+}
+
+.survey-demographic-form label {
+	display: inline-block;
+	margin: 2% 5%;
+}
+.survey-demographic-choose-age {
+	width: 100%;
+	margin-top: 8%;
+}
+
+.survey-demographic-choose-age-text {
+	text-align: center;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 5%;
+}
+
+.survey-gender-title,
+.marital-status-title {
+	font-weight: 400;
+	padding: 0 5%;
+	margin-top: 0;
+	margin-bottom: 6%;
+	text-align: center;
+}
+
+.survey-demographic-form input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.survey-demographic-form .checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 18px;
+	width: 18px;
+	border: 3px solid #2B2B2B;
+	border-radius: 50%;
+}
+
+.survey-demographic-form .input-container input:checked ~ .checkmark {
+	background-color: #ed1c24;
+}
+
+.survey-demographic-form .checkmark::after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.survey-demographic-form .input-container input:checked ~ .checkmark::after {
+	display: block;
+}
+
+.survey-demographic-form .input-container .checkmark::after {
+	top: 9px;
+	left: 9px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+
+.survey-demographic-form .input-container {
+	position: relative;
+}
+
+.gender-select-inputs {
+	opacity: 0;
+	margin-top: 0;
+	margin-bottom: 5%;
+}
+
+.marital-status-select-inputs {
+	margin-top: 5%;
+	opacity: 0;
+}
+
+.gender-inputs-wrapper,.marital-status-inputs-wrapper,
+.age-inputs-wrapper {
+	margin-left: 6%;
+}
+.age-inputs-wrapper{
+	margin-bottom: 5%;
+}
+.label-value {
+	position: relative;
+	vertical-align: middle;
+	display: block;
+	width: 60px;
+	left: 35%;
+}
+
+/* FINAL PAGE */
+.thanks-page {
+	display: none;
+	justify-content: center;
+	height: 100%;
+	align-items: center;
+	top: 0;
+	position: absolute;
+	width: 100%;
+	/*font-size: 1.8em;*/
+}
+.thanks-page h2{
+    text-align: center;
+    font-size: 1.8em
+}
+.jp .thanks-page h2 {
+    font-size: .8em;
+}
+.th .thanks-page h2 {
+    font-size: 1.5em;
+}
+/* CLICK ZONES */
+.privacy-policy-click {
+	top: 0;
+	height: 59%;
+	width: 80%;
+	transform: translateX(-50%);
+	z-index: 2;
+	left: 50%;
+	position: absolute;
+}
+
+.logo-click{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 100%;
+	z-index: 3;
+}

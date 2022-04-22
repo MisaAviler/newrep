@@ -1,0 +1,14 @@
+{
+	"name": "es6-template",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"marker": "rm -rf ./dist && mkdir dist && INPUT=./packages/creatives/markers.xlsx OUTPUT=./dist/markers.js node tools/markers_generator/markers_generator.js",
+		"copy": "cp ./src/index.js ./packages/creatives/$NAME/ && cp ./src/styles/creative.css ./packages/creatives/$NAME/styles/ && cp ./src/index.html ./packages/creatives/$NAME/ && cp ./src/package.json ./packages/creatives/$NAME/ && cp ./src/webpack.config.js ./packages/creatives/$NAME/",
+		"new": "rm -rf ./packages/creatives/$NAME && mkdir -p ./packages/creatives/$NAME && mkdir -p ./packages/creatives/$NAME/styles && npm run copy && npm i && lerna bootstrap"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {}
+}

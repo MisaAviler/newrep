@@ -1,0 +1,1072 @@
+/* Portrait */
+
+@media (min-aspect-ratio: 500 / 1000) and (max-aspect-ratio: 560 / 1000) {
+    .survey-footer-logo {
+        bottom: 8%;
+    }
+    .privacy-policy-click {
+        width: 100%;
+    }
+    .survey-footer-privacy-policy-text-container {
+        width: 100%;
+        font-size: .55em;
+    }
+    .survey-footer-privacy-policy-text-container p {
+        width: 290px;
+        max-width: 290px;
+        min-width: 290px;
+    }
+    .survey-option .checkmark:after {
+        left: 8px;
+        top: 5px;
+        width: 6px;
+        height: 12px;
+    }
+    .survey-option .checkmark {
+        height: 24px;
+        width: 24px;
+    }
+    body.uk .survey-demographic-form {
+        font-size: 0.8em;
+    }
+    body.es .survey-demographic-form label {
+        margin: 2% 6%;
+    }
+    body.es .thanks-page {
+        font-size: 1.2em;
+    }
+    body.jp .thanks-page h2 {
+        font-size: .8em;
+    }
+    body.th .thanks-page {
+        font-size: 1em;
+    }
+    body.th .marital-status-inputs-wrapper.addFlex label:first-child {
+        margin: 2% 13% 1% 5%;
+    }
+    body.th .marital-status-inputs-wrapper.addFlex label .label-value {
+        width: 130px;
+        left: 20%;
+    }
+    body.ru .survey-demographic-form {
+        font-size: 0.8em;
+    }
+    .isTablet {
+        font-size: 2em;
+    }
+    .isTablet .label-value {
+        width: 90px;
+        left: 40%;
+    }
+    .isTablet .survey-demographic-form .checkmark {
+        top: 12%;
+        height: 25px;
+        width: 25px;
+    }
+    .isTablet .survey-option .checkmark:after {
+        left: 10px;
+        top: 5px;
+        width: 9px;
+        height: 17px;
+    }
+    .isTablet .survey-option .checkmark {
+        height: 32px;
+        width: 32px;
+    }
+    .isTablet .survey-footer-logo {
+        bottom: 0;
+    }
+    .isTablet .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+}
+
+@media (min-aspect-ratio: 505 / 1000) and (max-aspect-ratio: 511 / 1000), (min-aspect-ratio: 550 / 1000) and (max-aspect-ratio: 555 / 1000) {
+    /*
+    Samsung tab web_native,
+    Samsung tab scroller_chrome
+    */
+    body.uk .survey-demographic-form {
+        font-size: 0.7em;
+    }
+    body.jp .survey-demographic-question-text {
+        font-size: .8em;
+    }
+    body.uk .survey-demographic-form label {
+        margin: 2% 6%;
+    }
+    body.th .survey-demographic-form label {
+        margin: 2% 7%;
+    }
+    body.uk .marital-status-inputs-wrapper.addFlex label:first-child {
+        margin: 2% 22% 2% 6%;
+    }
+    body.isTablet.uk .marital-status-inputs-wrapper.addFlex label:first-child {
+        margin: 2% 15% 2% 6%;
+    }
+    body.uk .survey-footer-privacy-policy-text-container, body.es .survey-footer-privacy-policy-text-container {
+        width: 90%;
+    }
+    body.es .thanks-page h2 {
+        font-size: 1.5em;
+    }
+    body.jp .thanks-page h2 {
+        font-size: .75em;
+    }
+    body.isTablet.jp .thanks-page h2 {
+        font-size: .7em;
+    }
+    body.uk .thanks-page h2 {
+        font-size: 1.5em;
+    }
+    body.th .survey-footer-privacy-policy-text-container {
+        width: 88%;
+    }
+    body.isTablet.th .thanks-page h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-aspect-ratio: 533 / 1000) and (max-aspect-ratio: 539 / 1000) {
+    body.es .thanks-page h2 {
+        font-size: 1.4em;
+    }
+    body.th .thanks-page h2 {
+        font-size: 1.3em;
+    }
+}
+
+@media (min-aspect-ratio: 515 / 1000) and (max-aspect-ratio: 517 / 1000) {
+    body.th .thanks-page h2 {
+        font-size: 1.2em;
+    }
+    body.jp .thanks-page h2 {
+        font-size: 0.6em;
+    }
+}
+
+@media (min-aspect-ratio: 560 / 1000) and (max-aspect-ratio: 600 / 1000) {
+    body {
+        font-size: 1em;
+    }
+    .survey-footer-privacy-policy-text-container {
+        width: 90%;
+    }
+    .survey-footer-privacy-policy-text-container p {
+        max-width: 300px;
+        width: 300px;
+        min-width: 300px;
+    }
+    .survey-demographic-form .checkmark {
+        height: 16px;
+        width: 16px;
+    }
+}
+
+@media (min-aspect-ratio: 620 / 1000) and (max-aspect-ratio: 700 / 1000) {
+    body {
+        font-size: .9em;
+    }
+    .privacy-policy-click {
+        width: 87%;
+    }
+    .survey-option .checkmark:after {
+        left: 8px;
+        top: 5px;
+        width: 6px;
+        height: 12px;
+    }
+    .survey-option .checkmark {
+        height: 24px;
+        width: 24px;
+    }
+    .survey-footer-privacy-policy-text-container {
+        width: 90%;
+    }
+    .survey-footer-privacy-policy-text-container {
+        font-size: .7em;
+    }
+    .survey-footer-logo {
+        width: 18%;
+    }
+    .survey-demographic-form .checkmark {
+        height: 16px;
+        width: 16px;
+    }
+    body.jp .thanks-page h2 {
+        font-size: .8em;
+    }
+    .isTablet {
+        font-size: 2em;
+    }
+    .isTablet .survey-footer-logo {
+        width: 16%;
+    }
+    .isTablet .survey-footer-privacy-policy-text-container {
+        width: 70%;
+        font-size: .56em;
+    }
+    .isTablet .survey-option .checkmark {
+        height: 40px;
+        width: 40px;
+    }
+    .isTablet .survey-option .checkmark:after {
+        left: 12px;
+        top: 6px;
+        width: 12px;
+        height: 22px;
+        border-width: 0 4px 4px 0;
+    }
+    .isTablet .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .isTablet .label-value {
+        width: 116px;
+        left: 31%;
+    }
+    .isTablet .survey-demographic-form .checkmark {
+        height: 25px;
+        width: 25px;
+        top: 14%;
+    }
+    .isTablet .bar {
+        height: 6px;
+    }
+    .isTablet .privacy-policy-click {
+        width: 68%;
+    }
+}
+
+@media (min-aspect-ratio: 700 / 1000) and (max-aspect-ratio: 705 / 1000) {
+    body {
+        font-size: .9em;
+    }
+    .privacy-policy-click {
+        width: 66%;
+    }
+    .survey-option .checkmark {
+        height: 24px;
+        width: 24px;
+    }
+    .survey-option .checkmark:after {
+        left: 8px;
+        top: 5px;
+        width: 6px;
+        height: 12px;
+    }
+    .survey-footer-privacy-policy-text-container {
+        width: 90%;
+        font-size: .55em;
+    }
+    .survey-footer-logo {
+        width: 17%;
+    }
+    .survey-footer-privacy-policy-text-container p {
+        max-width: 243px;
+        width: 243px;
+        min-width: 243px;
+    }
+    .survey-demographic-form .checkmark {
+        height: 16px;
+        width: 16px;
+    }
+    .isTablet {
+        font-size: 1.4em;
+    }
+    .isTablet .survey-footer-logo {
+        right: 0;
+        bottom: 6%;
+        width: 15%;
+    }
+    .isTablet .survey-demographic-form label {
+        margin: 2% 6%;
+    }
+    .isTablet .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .isTablet .survey-footer-privacy-policy-text-container {
+        width: 60%;
+    }
+    .isTablet .label-value {
+        width: 75px;
+        left: 32%;
+    }
+    .isTablet .survey-demographic-form .checkmark {
+        top: 17%;
+    }
+    .isTablet .marital-status-title, .survey-gender-title .survey-demographic-choose-age-text {
+        margin-bottom: 4%;
+    }
+    .isTablet .survey-option .checkmark {
+        height: 40px;
+        width: 40px;
+    }
+    .isTablet .survey-option .checkmark:after {
+        left: 12px;
+        top: 6px;
+        width: 12px;
+        height: 22px;
+        border-width: 0 4px 4px 0;
+    }
+    .isTablet .label-value {
+        width: 116px;
+        left: 29%;
+    }
+    .isTablet .survey-demographic-form .checkmark {
+        height: 25px;
+        width: 25px;
+        top: -3%;
+    }
+    .isTablet .bar {
+        height: 6px;
+        margin: 6% 2%;
+    }
+    .isTablet .LM_close {
+        background-size: 35px !important;
+        top: 18px !important;
+    }
+}
+
+@media (min-aspect-ratio: 705 / 1000) and (max-aspect-ratio: 770 / 1000) {
+    body {
+        font-size: .7em;
+    }
+    .privacy-policy-click {
+        width: 60%;
+    }
+    .bar {
+        margin: 6% 2%;
+    }
+    .survey-options {
+        height: 65%;
+    }
+    .survey-option .checkmark:after {
+        left: 7px;
+        top: 4px;
+        width: 6px;
+        height: 11px;
+    }
+    .survey-footer-privacy-policy-text-container {
+        width: 90%;
+    }
+    .survey-footer-privacy-policy-text-container p {
+        max-width: 205px;
+        width: 205px;
+        min-width: 205px;
+    }
+    .survey-footer-logo {
+        right: 0;
+        bottom: 0;
+        width: 17%;
+    }
+    .survey-demographic-form .checkmark {
+        top: -8%;
+        left: 3%;
+        height: 14px;
+        width: 14px;
+        border: 2px solid #2b2b2b;
+    }
+    .survey-option .checkmark {
+        height: 22px;
+        width: 22px;
+    }
+    .survey-demographic-form .checkmark {
+        height: 16px;
+        width: 16px;
+    }
+    body.es .thanks-page {
+        font-size: 1.1em;
+    }
+    body.jp .thanks-page h2 {
+        font-size: .7em;
+    }
+    .isTablet {
+        font-size: 1.8em;
+    }
+    .isTablet .survey-footer-privacy-policy-text-container {
+        width: 85%;
+    }
+    .isTablet .survey-option .checkmark {
+        height: 40px;
+        width: 40px;
+    }
+    .isTablet .survey-option .checkmark:after {
+        left: 12px;
+        top: 6px;
+        width: 12px;
+        height: 22px;
+        border-width: 0 4px 4px 0;
+    }
+    .isTablet .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .isTablet .label-value {
+        width: 116px;
+        left: 31%;
+    }
+    .isTablet .survey-demographic-form .checkmark {
+        height: 25px;
+        width: 25px;
+        top: 8%;
+    }
+    .isTablet .survey-footer-logo {
+        right: 0;
+        width: 15%;
+        bottom: 0;
+    }
+    .isTablet .bar {
+        height: 6px;
+    }
+    .isTablet .privacy-policy-click {
+        width: 68%;
+    }
+    /* body.isTablet.uk .thanks-page h2 {
+        font-size: 1.1em;
+    } */
+    body.isTablet.jp .thanks-page h2 {
+        font-size: .9em;
+    }
+    .isTablet .survey-footer {
+        height: 11%;
+    }
+}
+
+@media (min-aspect-ratio: 708 / 1000) and (max-aspect-ratio: 709 / 1000) {
+    body.jp .thanks-page h2 {
+        font-size: 1em;
+    }
+    body.th .thanks-page h2 {
+        font-size: 1.8em;
+    }
+}
+
+@media (min-aspect-ratio: 750 / 1000) and (max-aspect-ratio: 760 / 1000) {
+    .survey-demographic-form {
+        font-size: 0.7em;
+    }
+    /* body.isTablet.th .thanks-page h2 {
+        font-size: 1.5em;
+    } */
+    body.isTablet.jp .thanks-page h2 {
+        font-size: .7em;
+    }
+    body.isTablet.uk .thanks-page h2 {
+        font-size: 1.5em;
+    }
+    .isTablet .label-value {
+        width: 110px;
+    }
+}
+
+@media (min-aspect-ratio: 750 / 1000) and (max-aspect-ratio: 752 / 1000) {
+    body.isTablet.jp .thanks-page h2 {
+        font-size: .9em;
+    }
+}
+
+@media (min-aspect-ratio: 770 / 1000) and (max-aspect-ratio: 830 / 1000) {
+    body {
+        font-size: .7em;
+    }
+    .survey-demographic-form {
+        font-size: 0.7em;
+    }
+    .privacy-policy-click {
+        width: 58%;
+    }
+    .bar {
+        margin: 6% 2%;
+    }
+    .survey-option .checkmark:after {
+        left: 7px;
+        top: 4px;
+        width: 6px;
+        height: 11px;
+    }
+    .survey-footer-privacy-policy-text-container {
+        width: 90%;
+    }
+    .survey-footer-privacy-policy-text-container p {
+        max-width: 205px;
+        width: 205px;
+        min-width: 205px;
+    }
+    .survey-footer-logo {
+        right: 0;
+        bottom: 0;
+        width: 17%;
+    }
+    .survey-demographic-form .checkmark {
+        top: -8%;
+        left: 3%;
+        height: 14px;
+        width: 14px;
+        border: 2px solid #2b2b2b;
+    }
+    .survey-option .checkmark {
+        height: 22px;
+        width: 22px;
+    }
+    .isTablet {
+        font-size: 1.7em;
+    }
+    .isTablet .survey-footer-logo {
+        right: 0;
+        bottom: 0;
+        width: 15%;
+    }
+    .isTablet .survey-demographic-form label {
+        margin: 2% 6%;
+    }
+    .isTablet .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .isTablet .survey-footer-privacy-policy-text-container {
+        width: 65%;
+    }
+    .isTablet .label-value {
+        width: 75px;
+        left: 32%;
+    }
+    .isTablet .survey-demographic-form .checkmark {
+        top: 17%;
+    }
+    .isTablet .marital-status-title, .survey-gender-title .survey-demographic-choose-age-text {
+        margin-bottom: 4%;
+    }
+    .isTablet .survey-option .checkmark {
+        height: 40px;
+        width: 40px;
+    }
+    .isTablet .survey-option .checkmark:after {
+        left: 12px;
+        top: 6px;
+        width: 12px;
+        height: 22px;
+        border-width: 0 4px 4px 0;
+    }
+    .isTablet .label-value {
+        width: 116px;
+        left: 31%;
+    }
+    .isTablet .survey-demographic-form .checkmark {
+        height: 25px;
+        width: 25px;
+        top: 5%;
+    }
+    .isTablet .bar {
+        height: 6px;
+        margin: 6% 2%;
+    }
+    .isTablet .privacy-policy-click {
+        width: 65%;
+    }
+    body.isTablet.ru .marital-status-inputs-wrapper.addFlex label:first-child {
+        margin: 2% 9% 2% 5%;
+    }
+    body.isTablet.uk .marital-status-inputs-wrapper.addFlex label:first-child {
+        margin: 2% 22% 2% 5%;
+    }
+    body.isTablet.th .marital-status-inputs-wrapper.addFlex label:first-child {
+        margin: 2% 18% 1% 5%;
+    }
+    /* body.isTablet.uk .thanks-page h2 {
+        font-size: 1.3em;
+    } */
+    body.isTablet.jp .thanks-page h2 {
+        font-size: .9em;
+    }
+}
+
+/* Landscape */
+
+@media (min-aspect-ratio: 130 / 100) and (max-aspect-ratio: 240 / 100) {
+    body {
+        font-size: 1em;
+    }
+    .privacy-policy-click {
+        top: 0;
+        height: 100%;
+        width: 32%;
+    }
+    .survey-options, .survey-btn-container {
+        width: 50%;
+    }
+    .survey-footer-privacy-policy-text-container {
+        width: 41%;
+    }
+    .survey-footer {
+        height: 10%;
+    }
+    .survey-footer-logo {
+        margin-right: 10%;
+        width: 11%;
+    }
+    .survey-option .checkmark {
+        width: 22px;
+        height: 22px;
+    }
+    .survey-option .checkmark:after {
+        left: 7px;
+        top: 4px;
+        width: 6px;
+        height: 12px;
+    }
+    .survey-option, .survey-btn {
+        padding: 2% 0;
+    }
+    .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .survey-logo {
+        font-size: 2em;
+        top: 4%;
+    }
+    .bar {
+        margin: 4% 2%;
+    }
+    .questions-stage {
+        top: 15%;
+        width: 80%;
+    }
+    .survey-page {
+        top: 20%;
+    }
+    .survey-demographic-page {
+        top: 18%;
+    }
+    .survey-demographic-choose-age-text, .marital-status-title, .survey-gender-title {
+        margin-bottom: 1%;
+    }
+    .survey-demographic-question-text {
+        margin-bottom: 3%;
+    }
+    .survey-demographic-form label {
+        margin: 1% 8%;
+    }
+    .gender-select-inputs {
+        margin-bottom: 2%;
+    }
+    .survey-demographic-form .checkmark {
+        height: 16px;
+        width: 16px;
+    }
+    .marital-status-select-inputs {
+        margin-top: 0;
+    }
+    .isTablet {
+        font-size: 1.6em;
+    }
+    .isTablet .survey-option .checkmark {
+        width: 30px;
+        height: 30px;
+    }
+    .isTablet .survey-option .checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 9px;
+        height: 17px;
+        border-width: 0 4px 4px 0;
+    }
+    .isTablet .label-value {
+        width: 85px;
+    }
+    .isTablet .survey-demographic-form label {
+        margin: 1% 10%;
+    }
+    .isTablet .survey-demographic-form .checkmark {
+        height: 22px;
+        width: 22px;
+        top: 4%;
+        border: 4px solid #2b2b2b;
+    }
+    .isTablet .age-inputs-wrapper {
+        margin-bottom: 3%;
+    }
+    .isTablet .survey-footer-privacy-policy-text-container {
+        width: 45%;
+    }
+    .isTablet .privacy-policy-click {
+        width: 45%;
+    }
+    .isTablet .questions-stage-bars span {
+        margin: 2% 2%;
+    }
+}
+
+@media (min-aspect-ratio: 160 / 100) and (max-aspect-ratio: 240 / 100) {
+    .isTablet .survey-footer-privacy-policy-text-container {
+        width: 37%;
+    }
+    .isTablet .privacy-policy-click {
+        width: 37%;
+    }
+    body {
+        font-size: .8em;
+    }
+}
+
+@media (min-aspect-ratio: 175 / 100) and (max-aspect-ratio: 180 / 100) {
+    body {
+        font-size: .7em;
+    }
+    .privacy-policy-click {
+        width: 36%;
+    }
+    .survey-footer-privacy-policy-text-container p {
+        max-width: 315px;
+        margin: 0 auto;
+        width: 205px;
+        min-width: 205px;
+    }
+    .bar {
+        height: 3px;
+    }
+    .survey-footer-privacy-policy-text-container {
+        width: 35%;
+    }
+    .survey-footer-logo {
+        width: 9%;
+    }
+    .survey-option .checkmark {
+        width: 18px;
+        height: 18px;
+    }
+    .survey-option .checkmark:after {
+        left: 5px;
+        top: 3px;
+        border-width: 0 2px 2px 0;
+        width: 5px;
+        height: 10px;
+    }
+    .survey-demographic-form .checkmark {
+        height: 13px;
+        width: 13px;
+        border: 2px solid #2b2b2b;
+        top: -11%;
+    }
+    .label-value {
+        left: 30%;
+    }
+}
+
+@media (min-aspect-ratio: 177 / 100) and (max-aspect-ratio: 180 / 100) {
+    .survey-footer-privacy-policy-text-container {
+        width: 33%;
+    }
+    .privacy-policy-click {
+        height: 73%;
+        width: 33%;
+    }
+    .survey-demographic-form label {
+        margin: 1% 9%;
+    }
+    .survey-option .checkmark:after {
+        border-width: 0 2px 2px 0;
+    }
+    .gender-select-inputs {
+        margin-bottom: 4%;
+    }
+}
+
+@media (min-aspect-ratio: 180 / 100) and (max-aspect-ratio: 190 / 100) {
+    body {
+        font-size: .9em;
+    }
+    .privacy-policy-click {
+        width: 36%;
+    }
+    .survey-footer-privacy-policy-text-container {
+        width: 36%;
+    }
+    .survey-footer-logo {
+        width: 10%;
+    }
+    .survey-footer-privacy-policy-text-container p {
+        max-width: 700px;
+        margin: 0 auto;
+        width: 600px;
+        min-width: 205px;
+    }
+}
+
+@media (min-aspect-ratio: 190 / 100) and (max-aspect-ratio: 220 / 100) {
+    body {
+        font-size: .7em;
+    }
+    .survey-footer-logo {
+        width: 9%;
+    }
+    .survey-option .checkmark {
+        width: 18px;
+        height: 18px;
+    }
+    .survey-option .checkmark:after {
+        left: 5px;
+        top: 3px;
+        width: 6px;
+        height: 10px;
+    }
+    .bar {
+        margin: 3% 2%;
+    }
+    .survey-footer-privacy-policy-text-container {
+        width: 28%;
+    }
+    .age-inputs-wrapper {
+        margin-bottom: 2%;
+    }
+    .survey-demographic-form label {
+        margin: 1% 9%;
+    }
+    .survey-demographic-form .checkmark {
+        height: 13px;
+        top: -11%;
+        width: 13px;
+        border: 2px solid #2b2b2b;
+    }
+    .label-value {
+        left: 31%;
+    }
+}
+
+@media (min-aspect-ratio: 205 / 100) and (max-aspect-ratio: 210 / 100) {
+    .survey-option .checkmark:after {
+        border-width: 0 2px 2px 0;
+    }
+    .survey-option .checkmark:after {
+        left: 5px;
+        top: 3px;
+        width: 5px;
+        height: 9px;
+    }
+    .survey-footer-privacy-policy-text-container {
+        width: 30%;
+    }
+}
+
+@media (min-aspect-ratio: 210 / 100) and (max-aspect-ratio: 220 / 100) {
+    body {
+        font-size: .6em;
+    }
+    .privacy-policy-click {
+        width: 25%;
+    }
+    .survey-footer-privacy-policy-text-container {
+        width: 31%;
+    }
+    .survey-option .checkmark {
+        width: 15px;
+        height: 15px;
+    }
+    .survey-footer-privacy-policy-text-container {
+        width: 25%;
+    }
+    .survey-option .checkmark:after {
+        left: 4px;
+        top: 2px;
+        width: 5px;
+        height: 9px;
+        border-width: 0 2px 2px 0;
+    }
+    .bar {
+        height: 3px;
+    }
+    .survey-demographic-form .checkmark {
+        height: 11px;
+        top: -10%;
+        width: 11px;
+        border: 2px solid #2b2b2b;
+    }
+    .label-value {
+        left: 27%;
+    }
+}
+
+@media (min-aspect-ratio: 220 / 100) and (max-aspect-ratio: 240 / 100) {
+    body {
+        font-size: .8em;
+    }
+    .survey-page {
+        top: 27%;
+    }
+    .survey-footer-privacy-policy-text-container {
+        width: 32%;
+    }
+    .survey-footer-logo {
+        width: 8%;
+    }
+    .bar {
+        margin: 3.5% 2%;
+    }
+    .survey-demographic-page {
+        top: 17%;
+    }
+    .survey-demographic-question-text {
+        margin-bottom: 2%;
+    }
+    .survey-demographic-form {
+        font-size: .7em;
+    }
+    .survey-demographic-form label {
+        margin: 1% 9%;
+    }
+    .survey-demographic-form .checkmark {
+        height: 11px;
+        width: 11px;
+        border: 2px solid #2b2b2b;
+    }
+    .label-value {
+        left: 26%;
+    }
+}
+
+/*
+media queries for preview in builder
+*/
+
+@media (max-width: 230px) {
+    .LM_close {
+        width: 37px !important;
+        height: 46px !important;
+        background-size: 15px !important;
+        top: 0 !important;
+    }
+    .isTablet .LM_close {
+        width: 37px !important;
+        height: 46px !important;
+        background-size: 15px !important;
+        top: 0 !important;
+    }
+    .isTablet .survey-page {
+        height: 68%;
+    }
+    body {
+        font-size: .5em;
+    }
+    .survey-option .checkmark {
+        height: 14px;
+        width: 14px;
+    }
+    .bar {
+        height: 2px;
+    }
+    .survey-option .checkmark:after {
+        border-width: 0 2px 2px 0;
+        left: 4px;
+        top: 2px;
+        width: 4px;
+        height: 7px;
+    }
+    .survey-footer-privacy-policy-text-container p {
+        width: 188px;
+        min-width: 188px;
+        max-width: 188px;
+    }
+    .survey-demographic-form label {
+        margin: 2% 1%;
+    }
+    .label-value {
+        left: 24%;
+    }
+    .survey-demographic-form .checkmark {
+        height: 10px;
+        width: 10px;
+        border: 2px solid #2b2b2b;
+    }
+    .isTablet {
+        font-size: .5em;
+    }
+    body.isTablet.uk .thanks-page h2 {
+        font-size: 1.8em;
+    }
+    .isTablet .survey-option .checkmark {
+        height: 14px;
+        width: 14px;
+    }
+    .isTablet .bar {
+        height: 2px;
+    }
+   
+    .survey-options {
+        height: 85%;
+    } 
+
+    .isTablet .survey-option .checkmark:after {
+        border-width: 0 2px 2px 0;
+        left: 4px;
+        top: 2px;
+        width: 4px;
+        height: 7px;
+    }
+    .isTablet .survey-footer-privacy-policy-text-container p {
+        width: 188px;
+        min-width: 188px;
+        max-width: 188px;
+    }
+    .isTablet .survey-demographic-form label {
+        margin: 2% 1%;
+    }
+    .isTablet .label-value {
+        left: 24%;
+        width: 90px;
+    }
+    .isTablet .survey-demographic-form .checkmark {
+        height: 10px;
+        width: 10px;
+        border: 2px solid #2b2b2b;
+    }
+    .isTablet .survey-footer {
+        height: 11%;
+    }
+    body.isTablet.uk .survey-demographic-form {
+        font-size: 0.8em;
+    }
+    body.isTablet.uk .marital-status-inputs-wrapper.addFlex label:first-child,
+    body.isTablet.uk .marital-status-inputs-wrapper.addFlex label:last-child {
+        margin: 2% 1%;
+    }
+    body.isTablet.uk .marital-status-inputs-wrapper.addFlex label:first-child .label-value,
+    body.isTablet.uk .marital-status-inputs-wrapper.addFlex label:last-child .label-value {
+        width: 90px;
+        left: 22%;
+        padding-right: 30%;
+    }
+    body.isTablet.es .label-value {
+        width: 70px;
+    }
+    body.isTablet.ru .label-value {
+        left: 20%;
+    }
+    body.isTablet.ru .marital-status-inputs-wrapper.addFlex label:first-child .label-value,
+    body.isTablet.ru .marital-status-inputs-wrapper.addFlex label:last-child .label-value {
+        width: 90px;
+        left: 20%;
+    }
+    body.isTablet.ru .marital-status-inputs-wrapper.addFlex label:first-child,
+    body.isTablet.ru .marital-status-inputs-wrapper.addFlex label:last-child {
+        margin: 2% 1%;
+    }
+    body.isTablet.ru .thanks-page {
+        font-size: 1.4em;
+    }
+    body.isTablet.th .marital-status-inputs-wrapper.addFlex label:first-child {
+        margin: 2% 1%;
+    }
+    body.isTablet.th .marital-status-inputs-wrapper.addFlex label .label-value {
+        width: 90px;
+        left: 15%;
+    }
+}

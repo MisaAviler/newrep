@@ -1,0 +1,22 @@
+.LM_landscape {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #ffffff url('https://i.loopme.me/html/general/not_available.png') no-repeat;
+	background-position: center center;
+	background-size: 70px;
+	z-index: 100000000;
+}
+
+@media screen and (orientation: landscape) {
+	.LM_landscape {
+		display: block;
+	}
+
+	#LM_loading_page {
+		display: none;
+	}
+}

@@ -1,0 +1,65 @@
+#mute {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    background-size: 20px;
+    background-position: 50% 50%;
+}
+
+.LM_unmuted {
+    background: url('https://i.loopme.me/html/loopme_standart_icons/unmute.png') no-repeat;
+}
+
+.LM_muted {
+    background: url('https://i.loopme.me/html/loopme_standart_icons/mute.png') no-repeat;
+}
+
+.LM_video-wrapper {
+    width: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+    z-index: 5;
+}
+
+.LM_video-wrapper .LM_video {
+    width: 100%;
+}
+
+.LM_video-wrapper .LM_video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.LM_video-wrapper .LM_screenshot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+*::-webkit-media-controls-panel {
+    display: none!important;
+    -webkit-appearance: none;
+}
+
+*::-webkit-media-controls-play-button {
+    display: none!important;
+    -webkit-appearance: none;
+}
+
+
+*::-webkit-media-controls-start-playback-button {
+    display: none!important;
+    -webkit-appearance: none;
+}

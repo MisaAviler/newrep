@@ -1,0 +1,819 @@
+@media (min-aspect-ratio: 445 / 1000) and (max-aspect-ratio: 447 / 1000) and (width: 385px) and (height: 864px) {
+    .survey-page { top: 18%; }
+    .survey-footer-privacy-policy-text-container {
+        width: 80%;
+        font-size: .6em;
+    }
+
+    .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    body.jp .thanks-page h2 { font-size: 1em; }
+    body.jp .age-inputs-wrapper { margin-bottom: 2%;}
+    body.en .thanks-page h2 { font-size: 1.4em; }
+    body.uk .marital-status-inputs-wrapper.addFlex label:first-child .label-value { width: 113px; }
+    body.th .marital-status-inputs-wrapper.addFlex label .label-value { width: 128px; }
+}
+
+@media (min-aspect-ratio: 2244 / 1000) and (max-aspect-ratio: 2245 / 1000) and (width: 864px) and (height: 385px) {
+    .survey-logo { top: 5%; }
+    .bar { margin: 2% 4px; }
+    .survey-page {
+        top: 25%;
+        height: 62%;
+    }
+    .survey-options { height: 77%; }
+    .multiplesellection .survey-options { height: 68%; }
+    .survey-btn-container-scroll { margin: 1.5% 0 0 0; }
+    .survey-demographic-page { top: 18%; }
+    body.jp .thanks-page h2 { font-size: 1em; }
+    body.en .thanks-page h2 { font-size: 1.6em; }
+    body.ru .survey-demographic-form { font-size: .75em; }
+    body.ru .age-inputs-wrapper { margin-bottom: 2%; }
+    body.uk .survey-demographic-form { font-size: .85em; }
+    body.uk .age-inputs-wrapper { margin-bottom: 1%; }
+    body.th .age-inputs-wrapper { margin-bottom: 1.5%; }
+    body.th .gender-select-inputs { margin-bottom: 1.5%; }
+    body.th .survey-demographic-form { font-size: 0.9em; }
+    body.es .age-inputs-wrapper { margin-bottom: 2%; }
+    body.es .survey-demographic-form { font-size: 0.8em; }
+    body.en .age-inputs-wrapper { margin-bottom: 2%; }
+    body.en .survey-demographic-form { font-size: 0.8em; }
+}
+
+@media (min-aspect-ratio: 449 / 1000) and (max-aspect-ratio: 451 / 1000) and (width: 360px) and (height: 800px) {
+    body.uk .survey-logo,
+    body.en .survey-logo { font-size: 2em; }
+    .survey-options { height: 73%; }
+    .survey-footer-privacy-policy-text-container {
+        width: 80%;
+        font-size: .55em;
+    }
+
+    .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    body.uk .thanks-page h2 { font-size: 1.6em; }
+    body.th .thanks-page h2 { font-size: 1.4em; }
+    body.jp .thanks-page h2 { font-size: 1em; }
+    body.en .thanks-page h2 { font-size: 1.4em; }
+    body.uk .marital-status-inputs-wrapper.addFlex label:first-child .label-value,
+    body.uk .marital-status-inputs-wrapper.addFlex label:last-child .label-value {
+        width: 94px;
+        left: 25%;
+    }
+    body.uk .marital-status-inputs-wrapper.addFlex label:first-child .label-value { width: 113px; }
+    body.th .marital-status-inputs-wrapper.addFlex label .label-value { width: 128px; }
+}
+
+@media (min-aspect-ratio: 2220 / 1000) and (max-aspect-ratio: 2224 / 1000) and (width: 800px) and (height: 360px) {
+    .survey-logo { top: 5%; }
+    .bar { margin: 2% 4px; }
+    .survey-page {
+        top: 25%;
+        height: 62%;
+    }
+    .survey-options { height: 77%; }
+    .multiplesellection .survey-options { height: 68%; }
+    .survey-btn-container-scroll{ margin: 1.5% 0 0 0; }
+    .survey-demographic-page { top: 18%; }
+    .age-inputs-wrapper { margin-bottom: 3.5%; }
+    body.jp .thanks-page h2 { font-size: 1em; }
+    body.jp .age-inputs-wrapper { margin-bottom: 2%;}
+    body.ru .survey-demographic-form { font-size: .75em; }
+    body.uk .survey-demographic-form { font-size: .85em; }
+    body.uk .age-inputs-wrapper { margin-bottom: 1%; }
+    body.th .age-inputs-wrapper { margin-bottom: 1.5%; }
+    body.th .gender-select-inputs { margin-bottom: 1.5%; }
+    body.th .survey-demographic-form { font-size: 0.9em; }
+    body.es .age-inputs-wrapper { margin-bottom: 2%; }
+    body.es .survey-demographic-form { font-size: 0.8em; }
+    body.en .age-inputs-wrapper { margin-bottom: 2%; }
+    body.en .survey-demographic-form { font-size: 0.8em; } 
+}
+
+/* ================================================= */
+
+
+@media (min-aspect-ratio: 450 / 1000) and (max-aspect-ratio: 451 / 1000) and (width: 412px) and (height: 915px) {
+    .survey-footer-privacy-policy-text-container {
+        width: 80%;
+        font-size: .62em;
+    }
+
+    .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    body.jp .thanks-page h2 { font-size: 1em; }
+    body.en .thanks-page h2 { font-size: 1.5em; }
+    body.th .marital-status-inputs-wrapper.addFlex label .label-value { width: 128px; }
+}
+
+@media (min-aspect-ratio: 2220 / 1000) and (max-aspect-ratio: 2224 / 1000) and (width: 915px) and (height: 412px) {
+    .survey-logo { top: 5%; }
+    .bar { margin: 2% 4px; }
+    .survey-page {
+        top: 25%;
+        height: 62%;
+    }
+    .survey-options { height: 77%; }
+    .multiplesellection .survey-options { height: 68%; }
+    .survey-btn-container-scroll{ margin: 1.5% 0 0 0; }
+    .survey-demographic-page { top: 18%; }
+    .age-inputs-wrapper { margin-bottom: 3.5%; }
+    body.jp .thanks-page h2 { font-size: 1em; }
+    body.jp .age-inputs-wrapper { margin-bottom: 2%;}
+    body.jp .survey-demographic-form { font-size: .8em; }
+    body.en .thanks-page h2 { font-size: 1.6em; }
+    body.ru .survey-demographic-form { font-size: .75em; }
+    body.uk .survey-demographic-form { font-size: .85em; }
+    body.uk .age-inputs-wrapper { margin-bottom: 1%; }
+    body.th .age-inputs-wrapper { margin-bottom: 1.5%; }
+    body.th .gender-select-inputs { margin-bottom: 1.5%; }
+    body.th .survey-demographic-form { font-size: 0.95em; }
+    body.th .marital-status-inputs-wrapper.addFlex label:first-child { margin: 1% 24% 1% 9%; }
+    body.th .marital-status-inputs-wrapper.addFlex label .label-value {
+        left: 15%;
+        top: -20%;
+    }
+    body.es .age-inputs-wrapper { margin-bottom: 2%; }
+    body.es .survey-demographic-form { font-size: 0.85em; }
+    body.en .age-inputs-wrapper { margin-bottom: 2%; }
+    body.en .survey-demographic-form { font-size: 0.8em; }
+}
+
+/* ================================================= */
+
+
+@media (min-aspect-ratio: 461 / 1000) and (max-aspect-ratio: 463 / 1000) and (width: 393px) and (height: 851px) {
+    .survey-logo { font-size: 2em; }
+    .survey-options { height: 73%; }
+
+    .survey-footer-privacy-policy-text-container {
+        width: 80%;
+        font-size: .6em;
+    }
+
+    .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    body.jp .thanks-page h2 { font-size: 1em; }
+    body.en .thanks-page h2 { font-size: 1.5em; }
+    body.th .marital-status-inputs-wrapper.addFlex label .label-value { width: 128px; }
+}
+
+@media (min-aspect-ratio: 2160 / 1000) and (max-aspect-ratio: 2180 / 1000) and (width: 851px) and (height: 393px) {
+    .survey-logo {
+        top: 5%;
+        font-size: 2.3em;
+    }
+    .questions-stage {
+        top: 13%;
+    }
+    .bar { margin: 2% 4px; }
+    .survey-page {
+        top: 22%;
+        height: 65%;
+    }
+    .survey-options { height: 85%; }
+    .multiplesellection .survey-options { height: 68%; }
+    .survey-btn-container-scroll{ margin: .5% 0 0 0; }
+    .survey-demographic-page { top: 18%; }
+    .age-inputs-wrapper { margin-bottom: 3.5%; }
+
+    .survey-footer-privacy-policy-text-container {
+        width: 50% !important;
+        font-size: .8em;
+    }
+
+    .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    body.th .thanks-page h2 { font-size: 1.7em; }
+    body.th .marital-status-inputs-wrapper.addFlex label:first-child { margin: 1% 24% 1% 9%; }
+    body.jp .thanks-page h2 { font-size: 1em; }
+    body.jp .age-inputs-wrapper { margin-bottom: 2%;}
+    body.jp .survey-demographic-form { font-size: 1em; }
+    body.uk .survey-question-text { font-size: 1em; }
+    body.uk .survey-options { font-size: 1em; }
+    body.uk .survey-demographic-question-text { font-size: 1em; }
+    body.uk .survey-demographic-form { font-size: .9em; }
+    body.uk .age-inputs-wrapper { margin-bottom: 1%; }
+    body.uk .marital-status-inputs-wrapper.addFlex label:first-child .label-value,
+    body.uk .marital-status-inputs-wrapper.addFlex label:last-child .label-value { left: 15%; }
+    body.th .survey-question-text { font-size: 1.1em; }
+    body.th .survey-options { font-size: 1.1em; }
+    body.th .survey-demographic-form { font-size: 1.1em; }
+    body.th .age-inputs-wrapper { margin-bottom: 1.5%; }
+    body.th .gender-select-inputs { margin-bottom: 1.5%; }
+    body.th .marital-status-inputs-wrapper.addFlex label .label-value {
+        left: 15%;
+        top: -20%;
+    }
+    body.es .survey-question-text { font-size: 1.1em; }
+    body.es .survey-options { font-size: 1.1em; }
+    body.es .survey-demographic-question-text { font-size: 1.1em; }
+    body.es .age-inputs-wrapper { margin-bottom: 2%; }
+    body.es .survey-demographic-form { font-size: 1em; }
+    body.en .age-inputs-wrapper { margin-bottom: 2%; }
+    body.en .survey-demographic-question-text { font-size: 1.1em; }
+    body.en .survey-demographic-form { font-size: 1em; }
+    body.en .survey-question-text { font-size: 1.1em; }
+    body.en .survey-options { font-size: 1.1em; }
+}
+
+/* ================================================= */
+
+@media (min-aspect-ratio: 477 / 1000) and (max-aspect-ratio: 479 / 1000) and (width: 412px) and (height: 862px) {
+    .survey-footer-privacy-policy-text-container {
+        width: 80%;
+        font-size: .6em;
+    }
+
+    .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    body.jp .thanks-page h2 { font-size: 1em; }
+    body.en .thanks-page h2 { font-size: 1.6em; }
+    body.th .marital-status-inputs-wrapper.addFlex label .label-value { width: 128px; }
+}
+
+@media (min-aspect-ratio: 2080 / 1000)
+and (max-aspect-ratio: 2111 / 1000)
+and (width: 862px)
+and (height: 412px) ,
+(min-aspect-ratio: 1990 / 1000)
+and (max-aspect-ratio: 2070 / 1000)
+and (width: 640px)
+and (height: 320px) ,
+(min-aspect-ratio: 1990 / 1000)
+and (max-aspect-ratio: 2070 / 1000)
+and (width: 828px)
+and (height: 414px) {
+    .survey-logo { top: 5%; }
+    .questions-stage {
+        top: 13%;
+    }
+    .bar { margin: 2% 4px; }
+    .survey-page {
+        top: 22%;
+        height: 65%;
+    }
+    .survey-options { height: 85%; }
+    .multiplesellection .survey-options { height: 68%; }
+    .survey-btn-container-scroll{ margin: .5% 0 0 0; }
+    .survey-demographic-page { top: 18%; }
+    .age-inputs-wrapper { margin-bottom: 3.5%; }
+
+    .survey-footer-privacy-policy-text-container {
+        width: 50% !important;
+        font-size: .8em;
+    }
+
+    .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+    body.jp .thanks-page h2 { font-size: 1em; }
+}
+
+@media (min-aspect-ratio: 1990 / 1000) and (max-aspect-ratio: 2070 / 1000) and (width: 640px) and (height: 320px) {
+    .age-inputs-wrapper { margin-bottom: 2.5%; }
+    .survey-footer-privacy-policy-text-container {
+        width: 50% !important;
+        font-size: .7em;
+    }
+    body.th .age-inputs-wrapper { margin-bottom: 1%; }
+}
+
+@media (min-aspect-ratio: 2080 / 1000) and (max-aspect-ratio: 2111 / 1000) and (width: 862px) and (height: 412px) ,
+(min-aspect-ratio: 1990 / 1000) and (max-aspect-ratio: 2070 / 1000) and (width: 828px) and (height: 414px) {
+    body.uk .marital-status-inputs-wrapper.addFlex label:first-child .label-value, body.uk .marital-status-inputs-wrapper.addFlex label:last-child .label-value {
+        width: 100px;
+        left: 20%;
+        top: -10%;
+    }
+    body.th .survey-demographic-form { font-size: 1.1em; }
+    body.th .age-inputs-wrapper { margin-bottom: 1.5%; }
+    body.th .gender-select-inputs { margin-bottom: 1.5%; }
+    body.th .marital-status-inputs-wrapper.addFlex label .label-value {
+        left: 15%;
+        top: -20%;
+    }
+    body.th .marital-status-inputs-wrapper.addFlex label:first-child { margin: 1% 24% 1% 9%; }
+    body.en .age-inputs-wrapper { margin-bottom: 2%; }
+    body.en .survey-demographic-question-text { font-size: 1em; }
+    body.en .survey-demographic-form { font-size: 1em; }
+}
+
+/* ================================================ */
+
+@media (min-aspect-ratio: 499 / 1000) and (max-aspect-ratio: 501 / 1000) and (width: 320px) and (height: 640px) {
+    .survey-logo { font-size: 1.9em; }
+    .survey-options { height: 69%; }
+    .survey-page{
+        position: absolute;
+        top: 18%;
+        width: 100%;
+        height: 76%;
+        align-items: center;
+        flex-direction: column;
+        max-height: 78%;
+        display: none;
+    }
+    .multiplesellection{
+        height: 70%;
+        justify-content: space-between;
+    }
+
+    .survey-footer-privacy-policy-text-container {
+        width: 80%;
+        font-size: .5em;
+    }
+
+    .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .survey-footer-logo {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin-right: 5%;
+        width: 20%;
+    }
+
+    body.uk .marital-status-inputs-wrapper.addFlex label:first-child { margin: 2% 14% 2% 5%; }
+    .thanks-page h2 { font-size: 1.4em; }
+    body.th .thanks-page h2,
+    body.es .thanks-page h2 { font-size: 1.2em; }
+    body.en .thanks-page h2 { font-size: 1.2em; }
+}
+
+
+@media (min-aspect-ratio: 499 / 1000) and (max-aspect-ratio: 501 / 1000) and (width: 414px) and (height: 828px) {
+    body.en .survey-logo { font-size: 2em ;}
+    .survey-footer-privacy-policy-text-container {
+        width: 80%;
+        font-size: .6em;
+    }
+
+    .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .survey-footer-logo {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin-right: 5%;
+        width: 20%;
+    }
+
+    body.es .thanks-page h2 { font-size: 1.5em; }
+    body.en .thanks-page h2 { font-size: 1.5em;}
+}
+
+
+@media (min-aspect-ratio: 562 / 1000) and (max-aspect-ratio: 563 / 1000) and (width: 360px) and (height: 640px) {
+    body.uk .survey-logo,
+    body.es .survey-logo,
+    body.en .survey-logo { font-size: 2em; }
+    .survey-options { height: 71%; }
+    .survey-footer-privacy-policy-text-container {
+        width: 80%;
+        font-size: .57em;
+    }
+
+    .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .survey-footer-logo {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin-right: 5%;
+        width: 20%;
+    }
+
+    body.uk .thanks-page h2 { font-size: 1.6em; }
+    body.es .thanks-page h2 { font-size: 1.5em; }
+    body.en .thanks-page h2 { font-size: 1.5em ;}
+}
+
+
+@media (min-aspect-ratio: 1770 / 1000) and (max-aspect-ratio: 1800 / 1000) and (width: 640px) and (height: 360px) {
+    .survey-logo { top: 5%; }
+    .questions-stage {
+        top: 13%;
+    }
+    .bar { margin: 2% 4px; }
+    .survey-page {
+        top: 22%;
+        height: 65%;
+    }
+    .survey-options { height: 85%; }
+    .multiplesellection .survey-options { height: 68%; }
+    .survey-btn-container-scroll{ margin: .5% 0 0 0; }
+    .survey-demographic-page { top: 18%; }
+    .age-inputs-wrapper { margin-bottom: 3.5%; }
+
+    .survey-footer-privacy-policy-text-container {
+        width: 50% !important;
+        font-size: .8em;
+    }
+
+    .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .survey-footer-privacy-policy-text-container {
+        width: 50% !important;
+        font-size: .7em;
+    }
+    body.jp .thanks-page h2 { font-size: 1em; }
+    body.th .marital-status-inputs-wrapper.addFlex label .label-value { left: 15%; }
+ 
+}
+
+
+@media (min-aspect-ratio: 749 / 1000) and (max-aspect-ratio: 751 / 1000) and (width: 600px) and (height: 800px) {
+    .survey-logo { top: 6%; }
+    .survey-page {
+        justify-content: space-between;
+        height: 68%;
+    }
+    .multiplesellection {
+        height: 68%;
+    }
+    .multiplesellection .survey-options { height: 77%; }
+    .survey-options {
+        font-size: 1.2em;
+        height: 89%;
+    }
+    .survey-options li .option-item-text-span{ font-size: 1em; }
+    .survey-question-text{
+        top: 0;
+        font-size: 1.2em;
+        font-weight: 400;
+        padding: 0 5%;
+        text-align: center;
+    }
+    .survey-footer-privacy-policy-text-container {
+        width: 80%;
+        font-size: .7em;
+    }
+
+    .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    body.jp .thanks-page h2 { font-size: 1.2em; }
+    body.jp .survey-demographic-form { font-size: 1.2em; }
+    .survey-demographic-form label { margin: 2% 7%; }
+    body.ru .thanks-page h2 { font-size: 1.9em; }
+    body.ru .survey-demographic-question-text { font-size: 1.2em; }
+    body.ru .survey-demographic-form { font-size: 1.2em; }
+    body.ru .marital-status-inputs-wrapper.addFlex label:first-child .label-value { left: 15%; }
+    body.uk .survey-demographic-question-text { font-size: 1.2em; }
+    body.uk .survey-demographic-form { font-size: 1.2em; }
+    body.uk .marital-status-inputs-wrapper.addFlex label:first-child .label-value,
+    body.uk .marital-status-inputs-wrapper.addFlex label:last-child .label-value { top: -10% }
+    body.uk .survey-demographic-form label { margin: 2% 7%; }
+    body.th .survey-demographic-question-text { font-size: 1.2em; }
+    body.th .survey-demographic-form { font-size: 1.2em; }
+    body.es .survey-demographic-question-text { font-size: 1.2em; }
+    body.es .survey-demographic-form { font-size: 1.2em; }
+    body.en .survey-demographic-question-text { font-size: 1.2em; }
+    body.en .survey-demographic-form { font-size: 1.2em; }
+    body.en .survey-demographic-form label { margin: 2% 8%; }
+}
+
+@media (min-aspect-ratio: 1330 / 1000) and (max-aspect-ratio: 1350 / 1000) and (width: 800px) and (height: 600px) {
+    .isTablet { font-size: 1em; }
+    .survey-logo { top: 6%; }
+    .survey-footer { height: 10% !important; }
+    .privacy-policy-click,
+    .survey-footer-privacy-policy-text-container { width: 55% !important; }
+    .survey-footer-privacy-policy-text-container p { font-size: 1em; }
+
+    body.uk [for="Married-input"],
+    body.ru [for="Married-input"] { margin: 1% 1% !important; }
+    body.jp .thanks-page h2 { font-size: 1em; }
+    body.ru .isTablet .age-inputs-wrapper { margin-bottom: 5%; }
+    body.ru .gender-select-inputs { margin-bottom: 5%; }
+    body.isTablet.ru .marital-status-inputs-wrapper.addFlex label:first-child .label-value { left: 13%; }
+    body.ru .marital-status-inputs-wrapper.addFlex label:last-child .label-value { left: 14%; }
+    body.isTablet.ru .survey-demographic-form { font-size: 0.95em; }
+    body.isTablet.th .marital-status-inputs-wrapper.addFlex label .label-value { left: 12%; }
+}
+
+
+@media (min-aspect-ratio: 1981 / 1000) and (max-aspect-ratio: 1983 / 1000) and (width: 1920px) and (height: 969px) {
+    .survey-logo { top: 6%; }
+    .survey-btn-container-scroll{ margin: 2% 0 0 0; }
+    .multiplesellection .survey-options { height: 70%; }
+    body.jp .thanks-page h2 { font-size: 1.2em; }
+    body.jp.isTablet .survey-demographic-form label { margin: 1% 11%; }
+    body.uk.isTablet .survey-demographic-form label { margin: 1% 11%; }
+    body.th.isTablet .survey-demographic-form label { margin: 1% 11%; }
+    body.th .marital-status-inputs-wrapper.addFlex label:first-child { margin: 1% 24% 1% 11%; }
+    body.es.isTablet .survey-demographic-form label { margin: 1% 11%; }
+    body.en.isTablet .survey-demographic-form label { margin: 1% 11%; }
+}
+
+@media (min-aspect-ratio: 500 / 1000) and (max-aspect-ratio: 510 / 1000) and (width: 969px) and (height: 1920px) {
+    .survey-footer-privacy-policy-text-container { width: 85%; }
+    body.jp .thanks-page h2 { font-size: 1.2em; }
+    body.jp .survey-demographic-form label { margin: 2% 8%; }
+    body.uk.isTablet .survey-demographic-form label { margin: 1% 11%; }
+    body.uk .marital-status-inputs-wrapper.addFlex label:first-child { margin: 2% 18% 2% 11%; }
+    body.es.isTablet .survey-demographic-form label { margin: 2% 8%; }
+    body.en.isTablet .survey-demographic-form label { margin: 2% 8%; }
+}
+
+
+@media (min-aspect-ratio: 2078 / 1000) and (max-aspect-ratio: 2080 / 1000) and (width: 1366px) and (height: 657px) {
+    .survey-page { height: 67%; }
+    .multiplesellection .survey-options { height: 68%; }
+    .survey-options { height: 80%; }
+    .survey-btn-container-scroll{ margin: 2% 0 0 0; }
+
+    .survey-footer-privacy-policy-text-container {
+        width: 50% !important;
+        font-size: .6em;
+    }
+
+    .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .age-inputs-wrapper { margin-bottom: 2% !important; }
+
+    body.uk [for="Married-input"] span.label-value { width: 240px !important; }
+    body.uk [for="Single-input"] span.label-value { width: 290px !important; }
+    body.es [for="Single-input"] span.label-value { width: 90px !important; }
+
+    body.es .survey-demographic-choose-age-text,
+    body.es .survey-gender-title,
+    body.es .marital-status-title,
+    body.jp .survey-demographic-choose-age-text,
+    body.jp .survey-gender-title,
+    body.jp .marital-status-title { margin-bottom: 0 !important; }
+    body.th .gender-select-inputs { margin-bottom: 1% !important; }
+    body.th .age-inputs-wrapper { margin-bottom: 1%!important; }
+    body.jp .thanks-page h2 { font-size: 1em; }
+    body.en .thanks-page h2 { font-size: 1.6em; }
+    body.uk.isTablet .survey-demographic-form { font-size: .8em; }
+    body.isTablet.uk .marital-status-inputs-wrapper.addFlex label:first-child .label-value,
+    body.isTablet.uk .marital-status-inputs-wrapper.addFlex label:last-child .label-value { left: 11%; }
+    body.isTablet.th .marital-status-inputs-wrapper.addFlex label .label-value { left: 12%; }
+}
+
+@media (min-aspect-ratio: 478 / 1000) and (max-aspect-ratio: 482 / 1000) and (width: 657px) and (height: 1366px) {
+    .survey-logo { top: 6%; }
+    .survey-options { height: 82%; }
+    .multiplesellection .survey-options { height: 85%; }
+    .survey-footer-privacy-policy-text-container p {
+        width: 100%;
+        max-width: 100%;
+    }
+    body.jp .thanks-page h2 { font-size: 1.2em; }
+    body.jp .survey-demographic-form label { margin: 2% 8%; }
+    body.uk .survey-demographic-form label { margin: 2% 8%; }
+    body.isTablet.uk .marital-status-inputs-wrapper.addFlex label:first-child .label-value,
+    body.isTablet.uk .marital-status-inputs-wrapper.addFlex label:last-child .label-value { left: 11%; }
+    body.isTablet.uk .marital-status-inputs-wrapper.addFlex label:first-child { margin: 2% 18% 2% 8%; }
+    body.isTablet.uk .marital-status-inputs-wrapper.addFlex label:last-child { margin: 2% 18% 2% 4%; }
+    body.isTablet.th .marital-status-inputs-wrapper.addFlex label .label-value { left: 10%; }
+    body.en.isTablet .survey-demographic-form label { margin: 2% 8%; }
+}
+
+
+/* ========================== */
+/* for scroller */
+@media (min-aspect-ratio: 442 / 1000) and (max-aspect-ratio: 444 / 1000) and (width: 365px) and (height: 824px) ,
+(min-aspect-ratio: 446 / 1000) and (max-aspect-ratio: 449 / 1000) and (width: 340px) and (height: 760px) ,
+(min-aspect-ratio: 447 / 1000) and (max-aspect-ratio: 449 / 1000) and (width: 392px) and (height: 875px) ,
+(min-aspect-ratio: 458 / 1000) and (max-aspect-ratio: 461 / 1000) and (width: 373px) and (height: 811px) ,
+(min-aspect-ratio: 475 / 1000) and (max-aspect-ratio: 478 / 1000) and (width: 392px) and (height: 822px) ,
+(min-aspect-ratio: 499 / 1000) and (max-aspect-ratio: 501 / 1000) and (width: 300px) and (height: 600px) ,
+(min-aspect-ratio: 499 / 1000) and (max-aspect-ratio: 501 / 1000) and (width: 394px) and (height: 788px) ,
+(min-aspect-ratio: 566 / 1000) and (max-aspect-ratio: 568 / 1000) and (width: 340px) and (height: 600px) ,
+(min-aspect-ratio: 735 / 1000) and (max-aspect-ratio: 739 / 1000) and (width: 560px) and (height: 760px) {
+    .survey-logo { font-size: 2em; }
+    .survey-footer-privacy-policy-text-container { width: 80%; }
+    .survey-footer-privacy-policy-text-container p {
+        max-width: 100%;
+        min-width: 100%;
+        margin: 0 auto;
+        width: 100%;
+    }
+    body.jp .thanks-page h2 { font-size: 1em; }
+}
+
+
+@media (min-aspect-ratio: 442 / 1000)
+and (max-aspect-ratio: 444 / 1000)
+and (width: 365px)
+and (height: 824px) {
+    body.en .thanks-page h2 { font-size: 1.4em; }
+    body.jp .survey-footer-privacy-policy-text-container { font-size: .55em; }
+    body.th .thanks-page h2 { font-size: 1.4em; }
+    body.uk .thanks-page h2 { font-size: 1.6em; }
+    body.uk .marital-status-inputs-wrapper.addFlex label:first-child .label-value { width: 113px; }
+    body.ru .multiplesellection .survey-options { height: 75%; }
+    body.ru .survey-options { height: 70%; }
+    body.ru .thanks-page h2 { font-size: 1.6em; }
+    body.th .marital-status-inputs-wrapper.addFlex label .label-value { width: 128px; }
+}
+
+@media (min-aspect-ratio: 446 / 1000)
+and (max-aspect-ratio: 449 / 1000)
+and (width: 340px)
+and (height: 760px) {
+    .survey-footer-privacy-policy-text-container { font-size: .55em; }
+    body.en .thanks-page h2 { font-size: 1.3em; }
+    body.jp .survey-footer-privacy-policy-text-container { font-size: .5em; }
+    body.jp .multiplesellection .survey-options,
+    body.jp .survey-options { height: 70%; }
+    body.th .thanks-page h2 { font-size: 1.4em; }
+    body.th .marital-status-inputs-wrapper.addFlex label .label-value { width: 128px; }
+    body.es .thanks-page h2 { font-size: 1.5em; }
+    body.uk [for="Married-input"] { margin: 2% 1%; }
+    body.uk .thanks-page h2 { font-size: 1.6em; }
+    body.uk .marital-status-inputs-wrapper.addFlex label:first-child .label-value { width: 113px; }
+    body.ru .multiplesellection .survey-options { height: 75%; }
+    body.ru .survey-options { height: 70%; }
+    body.ru .thanks-page h2 { font-size: 1.6em; }
+}
+
+@media (min-aspect-ratio: 447 / 1000)
+and (max-aspect-ratio: 449 / 1000)
+and (width: 392px)
+and (height: 875px) {
+    .multiplesellection .survey-options { height: 75%; }
+    .survey-options { height: 80%; }
+    body.en .thanks-page h2 { font-size: 1.5em; }
+    body.jp .multiplesellection .survey-options { height: 75%; }
+    body.jp .survey-options { height: 74%; }
+    body.th .multiplesellection .survey-options { height: 75%; }
+    body.th .survey-options { height: 77%; }
+    body.th .marital-status-inputs-wrapper.addFlex label .label-value { width: 128px; }
+    body.es .survey-options { height: 75%; }
+    body.uk .survey-options { height: 75%; }
+    body.uk .marital-status-inputs-wrapper.addFlex label:first-child .label-value { width: 113px; }
+    body.ru .multiplesellection .survey-options { height: 75%; }
+    body.ru .survey-options { height: 72%; }
+    body.ru .thanks-page h2 { font-size: 1.6em; }
+}
+
+@media (min-aspect-ratio: 458 / 1000)
+and (max-aspect-ratio: 461 / 1000)
+and (width: 373px)
+and (height: 811px) {
+    body.en .thanks-page h2 { font-size: 1.4em; }
+    body.jp .survey-options { height: 73%; }
+    body.jp .survey-footer-privacy-policy-text-container { font-size: .55em; }
+    body.th .thanks-page h2 { font-size: 1.3em; }
+    body.th .marital-status-inputs-wrapper.addFlex label .label-value { width: 128px; }
+    body.uk .thanks-page h2 { font-size: 1.7em; }
+    body.uk .marital-status-inputs-wrapper.addFlex label:first-child .label-value { width: 113px; }
+    body.ru .multiplesellection .survey-options { height: 75%; }
+    body.ru .survey-options { height: 72%; }
+    body.ru .thanks-page h2 { font-size: 1.5em; }
+}
+
+
+@media (min-aspect-ratio: 475 / 1000)
+and (max-aspect-ratio: 478 / 1000)
+and (width: 392px)
+and (height: 822px) {
+    .survey-logo { font-size: 2.1em; }
+    body.en .thanks-page h2 { font-size: 1.5em; }
+    body.jp .multiplesellection { height: 69%; }
+    body.jp .multiplesellection .survey-options { height: 75%; }
+    body.jp .survey-options { height: 73%; }
+    body.ru .multiplesellection .survey-options { height: 75%; }
+    body.ru .survey-options { height: 72%; }
+    body.ru .thanks-page h2 { font-size: 1.6em; }
+    body.uk .marital-status-inputs-wrapper.addFlex label:first-child .label-value { width: 113px; }
+    body.th .marital-status-inputs-wrapper.addFlex label .label-value { width: 128px; }
+}
+
+@media (min-aspect-ratio: 499 / 1000)
+and (max-aspect-ratio: 501 / 1000)
+and (width: 300px)
+and (height: 600px) {
+    .survey-logo { font-size: 1.8em; }
+    .survey-footer-privacy-policy-text-container { font-size: .5em; }
+    .survey-footer-logo { bottom: 0; }
+    .multiplesellection .survey-options { height: 75%; }
+    .survey-options { height: 70%; }
+    body.en .thanks-page h2 { font-size: 1.1em; }
+    body.jp .survey-footer-privacy-policy-text-container { font-size: .45em; }
+    body.jp .survey-options { height: 67%; }
+    body.jp .thanks-page h2 { font-size: .8em; }
+    body.th .thanks-page h2 { font-size: 1.1em; }
+    body.es .thanks-page h2 { font-size: 1.1em; }
+    body.es .survey-footer { height: 11%; }
+    body.uk .survey-footer { height: 11%; }
+    body.uk .survey-options { height: 65%; }
+    body.uk [for="Married-input"] { margin: 2% 0; }
+    body.uk [for="Single-input"] { margin: 2% 10% 2% 5% !important; }
+    body.uk .thanks-page h2 { font-size: 1.4em; }
+    body.ru .survey-footer { height: 11%; }
+    body.ru .multiplesellection .survey-options { height: 75%; }
+    body.ru .survey-options { height: 60%; }
+    body.ru .thanks-page h2 { font-size: 1.3em; }
+}
+
+@media (min-aspect-ratio: 499 / 1000)
+and (max-aspect-ratio: 501 / 1000)
+and (width: 394px)
+and (height: 788px) {
+    body.en .thanks-page h2 { font-size: 1.5em; }
+    .multiplesellection .survey-options { height: 75%; }
+    body.jp .survey-options { height: 72%; }
+    body.es .thanks-page h2 { font-size: 1.5em; }
+    body.uk .thanks-page h2 { font-size: 1.6em; }
+    body.ru .survey-footer { height: 11%; }
+    body.ru .multiplesellection .survey-options { height: 75%; }
+    body.ru .survey-options { height: 70%; }
+    body.ru .thanks-page h2 { font-size: 1.6em; }
+}
+
+@media (min-aspect-ratio: 566 / 1000)
+and (max-aspect-ratio: 568 / 1000)
+and (width: 340px)
+and (height: 600px) {
+    .multiplesellection .survey-options { height: 75%; }
+    .survey-options { height: 70%; }
+    body.en .thanks-page h2 { font-size: 1.4em; }
+    body.jp .survey-footer-privacy-policy-text-container { font-size: .55em; }
+    .survey-footer { height: 11%; }
+    body.es .survey-footer-privacy-policy-text-container { font-size: .55em; }
+    body.es .thanks-page h2 { font-size: 1.6em; }
+    body.uk .survey-footer { height: 12%; }
+    body.uk [for="Married-input"] { margin: 2% 0; }
+    body.uk .thanks-page h2 { font-size: 1.5em; }
+    body.ru .survey-footer { height: 12%; }
+    body.ru .multiplesellection .survey-options { height: 75%; }
+    body.ru .survey-options { height: 66%; }
+    body.ru .thanks-page h2 { font-size: 1.5em; }
+}
+
+@media (min-aspect-ratio: 735 / 1000)
+and (max-aspect-ratio: 739 / 1000)
+and (width: 560px)
+and (height: 760px) {
+    .survey-logo {
+        font-size: 2.3em;
+        top: 6%;
+    }
+    .survey-question-text { font-size: 1.2em; }
+    .multiplesellection .survey-options { height: 80%; }
+    .survey-options {
+        font-size: 1.2em;
+        height: 77%;
+    }
+    .survey-footer-privacy-policy-text-container { font-size: .7em; }
+    .survey-demographic-question-text { font-size: 1.2em; }
+    .survey-demographic-form { font-size: 1.2em; }
+    body.th .thanks-page h2 { font-size: 1.4em; }
+    body.ru .marital-status-inputs-wrapper.addFlex label:first-child .label-value { left: 15%; }
+    body.es .survey-demographic-form label { margin: 2% 7%; }
+    body.en .survey-demographic-form label { margin: 2% 7%; }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "modules",
+    "version": "1.0.0",
+    "dependencies": {
+        "camera": "^1.0.0",
+        "creative": "^1.0.0",
+        "cube": "^1.0.0",
+        "expandable-banner": "^1.0.0",
+        "gallery": "^1.0.0",
+        "map": "^1.0.0",
+        "multi_videos": "^1.0.0",
+        "parallax": "^1.0.0",
+        "regenerator-runtime": "^0.13.7",
+        "shake": "^1.0.0",
+        "swipe-to-reveal": "^1.0.0",
+        "video": "^1.0.0",
+        "videos": "^1.0.0"
+    }
+}

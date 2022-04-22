@@ -1,0 +1,203 @@
+#LM_map-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.LM_map {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-size: cover;
+}
+
+.LM_map-wrapper {
+    position: absolute;
+}
+
+.LM_map-wrapper, #LM_map-holder {
+    width:  100%;
+    height: 100%;
+}
+
+#LM_map-holder {
+    display: none;
+}
+
+.LM_map-pin {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.LM_stores-list-wrap, .LM_stores-list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35%;
+    transition: 1s;
+}
+
+.LM_stores-list {
+    height: 100%;
+    top: 0;
+    color: black;
+    overflow-y: scroll;
+    background: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.LM_stores-list li > * {
+    pointer-events: none;
+}
+
+.LM_stores-list-wrap {
+    height: 100%;
+    z-index: 100;
+    transform: translateX(100%) translateZ(0);
+    -webkit-transform: translateX(100%) translateZ(0);
+    transition: .5s;
+    font-size: 14px;
+    overflow: hidden;
+    background: white;
+    display: none;
+}
+
+.LM_stores-list-wrap.LM_open-stores-list {
+    transform: translateX(0%) translateZ(0);
+    -webkit-transform: translateX(0%) translateZ(0);
+}
+
+.LM_stores-list-wrap li {
+    padding: 1%;
+    position: relative;
+}
+
+.LM_stores-list-wrap li:not(:last-child) {
+    border-bottom: 1px solid black;
+}
+
+.LM_stores-list-wrap li .LM_store-name, .LM_stores-list-wrap li .LM_store-distance {
+    display: block;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.LM_store-name {
+    font-family:  Impact, Charcoal, sans-serif;
+    width: 70%;
+    font-size: 12px;
+    margin: 3% 15%;
+}
+
+.LM_store-city {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    display: block;
+    font-size: .8em;
+    margin: 3% 15%;
+}
+
+.LM_store-address-wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    display: block;
+    font-size: .5em;
+    border-top: 1px solid black;
+    padding: 5% 0;
+    margin-left: 15%;
+}
+
+.LM_store-address {
+    width: 85%;
+    display: inline-block;
+}
+
+.LM_store-state {
+    width: 10%;
+    display: inline-block;
+}
+
+.LM_stores-list-wrap li .LM_store-distance {
+    width: 23%;
+}
+
+.LM_hide_map_btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    z-index: 999999999;
+    opacity: 1;
+    background: url(https://i.loopme.me/html/loopme_standart_icons/Close.png) no-repeat center;
+    background-size: 24px;
+}
+
+.LM_map .LM_map-preloader,
+.LM_map .LM_map-preloader img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+}
+
+.LM_map-preloader-spinner {
+    display:inline-block;
+    font-size:0;
+    padding:0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateZ(0) translateX(-50%) translateY(-50%);
+    -webkit-transform: translateZ(0) translateX(-50%) translateY(-50%);
+    z-index: 1003;
+}
+.LM_map-preloader-spinner span {
+    vertical-align:middle;
+    border-radius:100%;
+    background:#f8f8f8;
+    border: 1px solid #707070;
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 3px 4px;
+    -webkit-animation:spinner 0.8s linear infinite alternate;
+    animation:spinner 0.8s linear infinite alternate;
+}
+
+.LM_map-preloader-spinner span:nth-child(1) {
+    -webkit-animation-delay:-0.8s;
+    animation-delay:-0.8s;
+}
+
+.LM_map-preloader-spinner span:nth-child(2) {
+    -webkit-animation-delay:-0.53333s;
+    animation-delay:-0.53333s;
+}
+
+.LM_map-preloader-spinner span:nth-child(3) {
+    -webkit-animation-delay:-0.26666s;
+    animation-delay:-0.26666s;
+}
+
+@keyframes spinner {
+    from {transform: scale(0, 0);-webkit-transform: scale(0, 0);}
+    to {transform: scale(1, 1);-webkit-transform: scale(1, 1);}
+}
+
+@-webkit-keyframes spinner {
+    from {transform: scale(0, 0);-webkit-transform: scale(0, 0);}
+    to {transform: scale(1, 1);-webkit-transform: scale(1, 1);}
+}

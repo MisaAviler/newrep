@@ -1,0 +1,64 @@
+.addFlex {
+    display: flex;
+}
+
+/*ru*/
+body.isTablet.ru .marital-status-inputs-wrapper.addFlex label:first-child .label-value {
+    width: 300px;
+}
+
+body.isTablet.ru .marital-status-inputs-wrapper.addFlex label:last-child .label-value {
+    width: 200px;
+}
+
+body.ru .marital-status-inputs-wrapper.addFlex label:first-child .label-value {
+    width: 155px;
+    left : 14%;
+}
+
+body.ru .marital-status-inputs-wrapper.addFlex label:last-child .label-value {
+    width: 110px;
+    left : 20%;
+}
+
+/*uk*/
+body.uk .marital-status-inputs-wrapper.addFlex label:first-child .label-value,
+body.uk .marital-status-inputs-wrapper.addFlex label:last-child .label-value {
+    width: 110px;
+    left : 22%;
+}
+
+body.isTablet.uk .marital-status-inputs-wrapper.addFlex label:first-child .label-value,
+body.isTablet.uk .marital-status-inputs-wrapper.addFlex label:last-child .label-value {
+    width: 205px;
+    left : 20%;
+}
+
+/*THAI*/
+body.th .marital-status-inputs-wrapper.addFlex label:first-child {
+    margin: 2% 14% 1% 5%;
+}
+
+body.th .marital-status-inputs-wrapper.addFlex label .label-value {
+    width: 125px;
+    left : 20%;
+}
+
+body.isTablet.th .marital-status-inputs-wrapper.addFlex label .label-value {
+    width: 240px;
+    left : 16%;
+}
+
+@media (orientation: portrait) {
+   body.uk .marital-status-inputs-wrapper.addFlex label:first-child {
+            margin: 2% 18% 2% 5%;
+        }
+    body.ru .marital-status-inputs-wrapper.addFlex label:first-child {
+        margin: 2% 5% 2% 5%;
+    }
+
+    body.ru .marital-status-inputs-wrapper.addFlex label:last-child {
+        margin: 2% 5%;
+    }
+}
+

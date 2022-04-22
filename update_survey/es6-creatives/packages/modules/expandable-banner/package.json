@@ -1,0 +1,8 @@
+{
+    "name": "expandable-banner",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+        "creative": "^1.0.0"
+    }
+}

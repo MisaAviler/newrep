@@ -1,0 +1,28 @@
+{
+    "name": "creatives",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "rm -rf ./dist && mkdir dist && webpack --mode=production && cat dist/index.html | pbcopy",
+        "dev": "rm -rf ./dist && mkdir dist && webpack --mode=development && cat dist/index.html | pbcopy",
+        "preview": "rm -rf ./dist && mkdir dist && webpack-dev-server --mode=development --watch --hot --inline --content-base dist --port 1080 --host 0.0.0.0 --env.creative_path=$NAME"
+    },
+    "dependencies": {
+        "creative": "^1.0.0",
+        "regenerator-runtime": "^0.13.7"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "^7.3.1",
+        "babel-loader": "^8.0.5",
+        "css-loader": "^0.28.4",
+        "excel-as-json": "^2.0.2",
+        "extract-text-webpack-plugin": "^4.0.0-alpha.0",
+        "html-webpack-inline-source-plugin": "0.0.10",
+        "html-webpack-plugin": "^3.2.0",
+        "style-loader": "^0.21.0",
+        "webpack": "^4.8.3",
+        "webpack-cli": "^3.1.1",
+        "webpack-dev-server": "^3.1.8"
+    }
+}

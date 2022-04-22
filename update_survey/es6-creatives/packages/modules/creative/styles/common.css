@@ -1,0 +1,83 @@
+@-ms-viewport { width:device-width }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow: hidden;
+    height:100% !important;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+}
+
+a {
+    text-decoration:none;
+}
+
+#LOOPME_widget {
+    width:100%;
+    height:100% !important;
+    overflow:hidden;
+}
+
+#pano {
+    width:320px;
+    height:480px;
+}
+
+.LM_html_container,
+.spinner {
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+
+.LM_html_container {
+    position:absolute;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+.LM_content {
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    opacity: 0;
+}
+
+.LM_logo{
+    top: 3%;
+    width: 40%;
+    display: block;
+    left: 50%;
+    margin: 0;
+    position:absolute;
+    right:0;
+}
+
+.LM_container {
+    width: 100%;
+    height:100%;
+    position: absolute;
+    z-index: 10000;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);-webkit-transform: translateX(-50%) translateY(-50%);
+    background: white;
+}
+
+@media only screen and (min-device-width:800px) {
+    html {
+        overflow: hidden;
+    }
+}
